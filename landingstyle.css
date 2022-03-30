@@ -1,0 +1,171 @@
+
+/* card */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Garamond, sans-serif;
+  font-size: 14px;
+}
+
+body{
+  background-color: #f2f2f2;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  width: 400px; 
+  margin: 0px auto; 
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  float : right;
+}
+.card a { 
+  color: #333; 
+  text-decoration: none;
+}
+.card:hover .card-image img { 
+  width: 140%;
+  filter: grayscale(0);
+}
+
+.card2 {
+  width: 400px; 
+  margin: 0px auto; 
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  float: left;
+
+}
+.card2 a { 
+  color: #333; 
+  text-decoration: none;
+}
+.card2:hover .card-image img { 
+  width: 160%;
+  filter: grayscale(0);
+}
+
+.card3 {
+  width: 400px; 
+  margin: 0px auto; 
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  float: center;
+
+}
+.card3 a { 
+  color: #333; 
+  text-decoration: none;
+}
+.card3:hover .card-image img { 
+  width: 160%;
+  filter: grayscale(0);
+}
+
+.card-image {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.card-image img {
+  width: 190%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: grayscale(1);
+  transition-property: filter width; 
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
+.card-body {
+  text-align:left;  
+  padding: 15px 20px; 
+  box-sizing: border-box; 
+}
+
+.card-body p {
+  font-size: 20px;
+  text-align:center;  
+}
+
+.img-size {
+  width: 3%;
+}
+
+.button-vert {
+  width: 100%;
+  background-color: #BEBEBE;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px grey;
+}
+
+.button-vert:hover {
+  background-color: #4CAF50;
+}
+
+.button-rouge {
+  background-color: #B1B1B1;
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px grey;
+}
+
+.button-rouge:hover {
+  background-color: #E21050;
+}
+
+.button-bleu {
+  
+  background-color: #545454;
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px grey;
+}
+
+.button-bleu:hover {
+  background-color: #3D45C2;
+}
+
+.button-bleu a {
+ color: white;
+}
+
+.button-rouge a {
+ color: white;
+}
+.button-vert a {
+ color: white;
+}
+
+/* formulaire */ 
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

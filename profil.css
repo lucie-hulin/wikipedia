@@ -1,0 +1,253 @@
+
+@font-face {
+  font-family: garamond;
+  src: url('garamond.ttf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Garamond, sans-serif;
+
+}
+
+html {
+  font-size: 14px;
+  background-color: white;
+}
+
+body {
+  width: 97%;
+  margin: 0 auto;
+}
+
+header {
+  height: 80px;
+}
+
+nav, aside, footer{
+  background-color: white;
+  padding-left: 12px;
+  font-family: Garamond, sans-serif;
+
+}
+
+aside{
+  padding-left: 50px;
+}
+
+a{
+  color : #0745ad;
+}
+
+.navbar {
+  height: 10px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.loupe {
+  height: 80%;
+  width: 20%;
+}
+
+.prenom{
+  margin-left : 12px;
+  width: 83.5%;
+}
+
+.prenom h1 {
+  font-size: 30px;
+  font-family: Garamond, sans-serif;
+  font-weight: lighter;
+}
+
+section {
+  width: 20%;
+  background-color: #f8f9fa;
+}
+
+article {
+  margin-left: 15px;
+}
+
+.headerdroite{
+  margin:  10px;
+  font-weight: bold;
+}
+
+.gauche {
+  justify-content: space-between;
+  flex : 2;
+  overflow: auto;
+}
+
+.compte{
+  margin: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Garamond, sans-serif;
+}
+
+.topsection{
+  margin-top: 0px;
+  width: 11%;
+}
+
+.colonnegauche{
+  margin: 10px;
+  line-height: 0.85em;
+  font-size: 12px;
+}
+
+.competences{
+  line-height: 1.5em;
+}
+
+.bold{
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.texteformation {
+  text-align: justify;
+}
+
+.grille1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 0.5fr;
+  grid-gap: 20px;
+  
+}
+
+.un {
+  grid-column: 1;
+  grid-row: 1;
+  margin : 15px;
+}
+
+.deux {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.grille2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  border: solid 1px black;
+  padding: 20px;
+
+}
+
+.unbis {
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.unbisphoto {
+  grid-column: 1/3;
+  grid-row:2;
+  text-align: center;
+  font-style: italic;
+  height: 120%;
+}
+
+.untrois {
+  grid-column: 1;
+  grid-row: 3;
+}
+.deuxtrois {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.unquatre {
+  grid-column: 1;
+  grid-row: 4;
+}
+.deuxquatre {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.uncinq {
+  grid-column: 1;
+  grid-row: 5;
+}
+.deuxcinq{
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.unsix {
+  grid-column: 1;
+  grid-row: 6;
+}
+.deuxsix{
+  grid-column: 2;
+  grid-row: 6;
+}
+
+.unsept {
+  grid-column: 1;
+  grid-row: 7;
+}
+.deuxsept {
+  grid-column: 2;
+  grid-row: 7;
+}
+
+.unhuit {
+  grid-column: 1;
+  grid-row: 8;
+}
+.deuxhuit {
+  grid-column: 2;
+  grid-row: 8;
+}
+
+.troisbis {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.boutonlanding{
+  width: 100%;
+  background-color: #0745ad;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px grey;
+}
+
+.boutonlanding a{
+  text-decoration: none;
+  color : white;
+}
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+}
+
+aside {
+  flex: 4;
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: 10px;
+}
